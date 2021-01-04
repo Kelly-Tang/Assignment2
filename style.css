@@ -1,7 +1,7 @@
 body{
     margin: auto;
     font-family: 'Oswald', sans-serif;
-    background-image: linear-gradient(to bottom, #1de5e2,#b588f7,rgb(157, 164, 190));
+    background-image: linear-gradient(to bottom, #1de5e2,#b588f7);
   }
   .button {
     background-color: lightgoldenrodyellow;
