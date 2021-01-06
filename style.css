@@ -1,19 +1,44 @@
 body{
-    margin: auto;
-    font-family: 'Oswald', sans-serif;
-    background-image: linear-gradient(to bottom, #1de5e2,#b588f7);
-  }
-  .button {
-    background-color: lightgoldenrodyellow;
-    border: none;
-    color: rgb(0, 0, 0, 0.2);
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 0 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    font-family: 'Oswald', sans-serif;
-  }
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(to bottom, #1de5e2,#b588f7);
+}
+.btn {
+  background-color: lightgoldenrodyellow;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Oswald', sans-serif;
+}
+.button2{
+  background-color: rgb(250, 237, 210);
+  border: 2px solid lightslategray;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Oswald', sans-serif;
+}
+.search{
+  border-radius: 4px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 9px 20px;
+  margin: 8px 0px;
+  font-size: 15px;
+  background-color: lemonchiffon;
+}
