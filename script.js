@@ -58,11 +58,11 @@ var settings = {
     $("#title3").html(`${response.products[3].title}`);
     $("#rating3").html(`${response.products[3].reviews.rating}`);
 
-    $("#title4").html(`${response.products[1].title}`);
-    $("#rating4").html(`${response.products[1].reviews.rating}`);
+    $("#title4").html(`${response.products[0].title}`);
+    $("#rating4").html(`${response.products[0].reviews.rating}`);
     
-    $("#title5").html(`${response.products[0].title}`);
-    $("#rating5").html(`${response.products[0].reviews.rating}`);
+    $("#title5").html(`${response.products[1].title}`);
+    $("#rating5").html(`${response.products[1].reviews.rating}`);
   });
 
 //display inputs
