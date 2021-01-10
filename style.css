@@ -1,8 +1,21 @@
 body{
   margin: auto;
   font-family: 'Oswald', sans-serif;
-  background-image: linear-gradient(to bottom, #1de5e2,#b588f7);
+  background-color: linear-gradient(to bottom, #1de5e2,#b588f7);
+  background-image: url("cake.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+#withImage{
+  background-repeat: repeat;
+  background-image: url("balloon.jpg");
+  font-size: 140%;
+  color: 	#C12957;
+  background-size: 100%;
+  font-weight: 300;
+}
+
 .btn {
   background-color: lightgoldenrodyellow;
   border: none;
@@ -19,9 +32,9 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 .button2{
-  background-color: rgb(250, 237, 210);
+  background-color: lemonchiffon;
   border: 2px solid lightslategray;
-  color: rgb(0, 0, 0);
+  color: midnightblue;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -33,12 +46,27 @@ body{
   border-radius: 4px;
   font-family: 'Oswald', sans-serif;
 }
-.search{
-  border-radius: 4px;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 9px 20px;
-  margin: 8px 0px;
-  font-size: 15px;
-  background-color: lemonchiffon;
+
+#without{
+  font-size: 130%;
+}
+
+#title1{
+  color: #905a80;
+}
+#title5{
+  color: #905a80;
+}
+#title3{
+  color: #905a80;
+}
+#title2{
+  color: #b08fb8;
+}
+#title4{
+  color: #b08fb8;
+}
+
+#profile{
+  color: #ffd27f;
 }

@@ -1,14 +1,5 @@
 $(document).ready(function(){
   
-  $("searchPresent").submit(function (e){
-    e.preventDefault();
-    let present = $("#search").val();
-    let url = `https://amazon-product-reviews-keywords.p.rapidapi.com/product/search?keyword=${present}&country=SG&category=aps`;
-    
-    let presents = new Present(present);
-  });
-
-  
   displayProfile();
 
   $("#frm-user").submit(function (e) {
@@ -36,6 +27,7 @@ $(document).ready(function(){
     displayProfile();
   });
 });
+
 function User(firstName, lastName, birth){
   this.first = firstName;
   this.last = lastName;
@@ -45,6 +37,33 @@ function User(firstName, lastName, birth){
 function Present(present){
   this.box = present;
 }
+
+var settings = {
+    "url": "https://amazon-product-reviews-keywords.p.rapidapi.com/product/search?keyword=gift&country=SG&category=aps",
+    "method": "GET",
+    "timeout": 0,
+    "headers": {
+      "x-rapidapi-key": "65f6d740bamshfaca19740eccd07p100b65jsn644dd0e98dfa",
+      "x-rapidapi-host": "amazon-product-reviews-keywords.p.rapidapi.com"
+    },
+  };
+
+  $.ajax(settings).done(function (response) {
+    $("#title1").html(`${response.products[2].title}`);
+    $("#rating1").html(`${response.products[2].reviews.rating}`);
+
+    $("#title2").html(`${response.products[10].title}`);
+    $("#rating2").html(`${response.products[10].reviews.rating}`);
+    
+    $("#title3").html(`${response.products[3].title}`);
+    $("#rating3").html(`${response.products[3].reviews.rating}`);
+
+    $("#title4").html(`${response.products[1].title}`);
+    $("#rating4").html(`${response.products[1].reviews.rating}`);
+    
+    $("#title5").html(`${response.products[0].title}`);
+    $("#rating5").html(`${response.products[0].reviews.rating}`);
+  });
 
 //display inputs
 function displayProfile(){

@@ -21,7 +21,8 @@ On different screen sizes, when scaled to phone size, the words will not shrink,
 2. Fonts:
     * Google Fonts
 3. Media:
-
+    * Images taken from: https://www.goodhousekeeping.com/life/a31816720/cute-birthday-instagram-captions/
+    
 
 ## Acknowledgements
 

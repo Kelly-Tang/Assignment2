@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-light" style="background-color: #ffe5b4;">
+      <nav class="navbar navbar-light" style="background-color: #eaa9a9;">
         <a class="navbar-brand" href="#">Birthday REmind</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
       </nav>
         <br>
         <div class="table-responsive-sm">
-          <table class="table" style="background-color: #c0dfd9;">
+          <table class="table" style="background-color: #c0dfd9;" id="withImage">
             <thead>
               <tr>
                 <th scope="col">First Name:</th>
@@ -43,10 +43,47 @@
             <!-- update with localstorage content here --> 
             </tbody>
           </table>
-          <form id="searchPresent">
-            <input type="text" placeholder="Search for presents" class="search">
-            <button type="button" class="button2 btn-link"><i class="fa fa-search"></i></button>
         </div>
+        
+        <div class="table-responsive-sm">
+          <table class="table" style="background-color: #f6f6f0;" id="without">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Title:</th>
+                <th scope="col">Rating:</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><a href="https://www.amazon.sg/Michel-Design-Works-Lavender-Rosemary/dp/B07MTMR6L8/ref=sr_1_13?dchild=1&keywords=gifts&qid=1610274133&rnid=6469111051&sr=8-13" id="title1"></a></td>
+                <td id="rating1"></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><a href="https://www.amazon.sg/Organizer-Anniversary-Birthday-Nightstand-Graduation/dp/B084G88WDC/ref=sr_1_14?dchild=1&keywords=gifts&qid=1610274133&rnid=6469111051&sr=8-14" id="title2"></td>
+                <td id="rating2"></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><a href="https://www.amazon.sg/Radiant-Royals-Housewarming-Thanksgiving-Accessories/dp/B07DBD56YT/ref=sr_1_2?dchild=1&keywords=gifts&qid=1610273681&refinements=p_72%3A6469122051&rnid=6469111051&sr=8-2" id="title3"></a></td>
+                <td id="rating3"></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td><a href="https://www.amazon.sg/Rechargeable-Control-Dimmable-Creative-Decoration/dp/B081CCDBY7/ref=sr_1_7?dchild=1&keywords=gifts&qid=1610274133&rnid=6469111051&sr=8-7" id="title4"></td>
+                <td id="rating4"></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td><a href="https://www.amazon.sg/Burts-Bees-Classics-Products-Giftable/dp/B00VK5SG46/ref=sr_1_10?dchild=1&keywords=gifts&qid=1610274133&rnid=6469111051&sr=8-10" id="title5"></td>
+                <td id="rating5"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <h2 id="profile">Profile</h2>
           <form id="frm-user" class="form-group">
             <input type="text" id="name" class="form-control" placeholder="First name">
