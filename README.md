@@ -1,4 +1,6 @@
 # Assignment 2_Web Application
+GitHub Link: https://kelly-tang.github.io/Assignment2/
+
 The overview of this website, this project or website is for users that are forgetful of their friend's birthday. This website have different kind of products shown, and the ratings for the users to decide which gifts they would want to buy.
 
 ## Design Process: 
@@ -50,7 +52,8 @@ Website Responsive | Text, tables, forms will wrap | Text, tables, forms will wr
 1. Contents:
     * All the information in the title tabel, was all taken from the Amazon API in [RapidAPI](https://rapidapi.com/marketplace).
 2. Codes:
-    * 
+    * Bootstrap Forms and Tables
+    * Jquery
 3. Fonts:
     * The typography in this project were obtained from [Google Fonts](https://fonts.google.com/).
 4. Media:
