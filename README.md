@@ -54,6 +54,10 @@ Website Responsive | Text, tables, forms will wrap | Text, tables, forms will wr
 2. Codes:
     * Bootstrap Forms and Tables
     * Jquery
+    * Javascript
+      1. DOM
+      2. Local Storage
+      3. Ajax
 3. Fonts:
     * The typography in this project were obtained from [Google Fonts](https://fonts.google.com/).
 4. Media:
